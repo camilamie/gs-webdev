@@ -14,6 +14,7 @@ export default function Header() {
                         <li><NavLink to="/detalhes">Detalhes</NavLink></li>
                         <li><NavLink to="/contato">Contato</NavLink></li>
                         <li><NavLink to="/pagenotfound"></NavLink></li>
+                        <li><NavLink to="/login">Login</NavLink></li>
                     </ul>
                 </nav>
             </header>
