@@ -5,7 +5,6 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Contato from './pages/Contato.jsx'
-import PageNotFound from './pages/PageNotFound.jsx'
 import Detalhes from './pages/Detalhes.jsx'
 
 const router = createBrowserRouter(
