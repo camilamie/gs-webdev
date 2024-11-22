@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .active {
     border-bottom: 2px solid white;
     font-weight: bold;
 }
+
+footer {
+    padding: 20px;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+
+ }

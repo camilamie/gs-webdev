@@ -7,9 +7,14 @@ export default function App() {
   return (
 
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <div lassName="flex-grow">
+          <Outlet />
+        </div>
+        <Footer />
+      </div>
     </>
   )
 }
+

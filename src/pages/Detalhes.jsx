@@ -1,17 +1,25 @@
 export default function Detalhes() {
     return (
         <>
-<section>
-<div>
-    <h1>Detalhes de nosso produto</h1>
+        <section className="bg-gray-50 py-12 min-h-screen">
+            <div className="max-w-5xl mx-auto px-6 text-center ">
+                <h1 className="text-4xl md:text-5xl font-semibold text-green-700 mb-8">Detalhes do Produto</h1>
 
-    <p>Nosso produto é sustentavel para todos do planeta, ajudando a aumentar a pegada ecológica da terra.</p>
-    <p>Nosso produto é um sensor que deve ser instalado nas portas de saída de sua propriedade, e quando houver identificação de saída, nosso aplicativo irá confirmar que você saiu através de uma notificação, e caso seja confirmada, a luz da casa de coisas não essenciais (modo stand by).</p>
-<p>Assim economizando cada vez mais energia e tornando nosso planeta e nossas vidas cada vez mais sustentavel,</p>
+                <p className="text-lg text-gray-700 mb-6">
+                    Nosso produto é sustentável para todos no planeta, ajudando a aumentar a pegada ecológica da Terra.
+                </p>
+                <p className="text-lg text-gray-700 mb-6">
+                    Ele é um sensor que deve ser instalado nas portas de saída de sua propriedade. Quando há uma identificação de saída, nosso aplicativo envia uma notificação para confirmar que você saiu. Caso seja confirmado, o sistema desliga dispositivos não essenciais em modo stand-by.
+                </p>
+                <p className="text-lg text-gray-700 mb-8">
+                    Com isso, economizamos energia e tornamos o planeta e nossas vidas mais sustentáveis.
+                </p>
 
-</div>
-
-</section>
+                <div className="flex justify-center ">
+                    <img src="src/assets/detalhes-foto.jpeg" alt="Mulher no celular" className="rounded-xl shadow-lg max-w-full h-auto w-full lg:w-2/3" />
+                </div>
+            </div>
+        </section>
         </>
-    )
+    );
 }

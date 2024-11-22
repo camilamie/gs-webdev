@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Contato from './pages/Contato.jsx'
 import Detalhes from './pages/Detalhes.jsx'
 import Login from "./pages/login.jsx"
+import PageNotFound from "./pages/PageNotFound.jsx"
 
 const router = createBrowserRouter(
   [
@@ -18,8 +19,9 @@ const router = createBrowserRouter(
        { index: true, element: <Home /> },
         { path: 'contato', element: <Contato /> },
        { path: 'detalhes', element: <Detalhes/>},
-       // { path: '*', element: <PageNotFound /> }
-       //{ path: '/login', element: <Login/>}
+       { path: 'login', element: <Login/>},
+       { path: '*', element: <PageNotFound /> }
+       
 
       ]
     }

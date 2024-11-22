@@ -22,26 +22,38 @@ const LoginPage = () => {
     };
 
     return (
-        <div>
-            <h2>Login</h2>
-            {error && <p style={{ color: 'red' }}>{error}</p>}
-            <div>
-                <label>Username:</label>
-                <input
-                    type="text"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                />
+        <div className="flex items-center justify-center min-h-screen bg-gray-100">
+            <div className="w-full max-w-md bg-white rounded-lg shadow-md p-8">
+                <h2 className="text-3xl font-semibold text-center text-green-700 mb-6">Login</h2>
+                {error && <p className="text-red-500 text-sm mb-4 text-center">{error}</p>}
+                
+                <div className="mb-4">
+                    <label className="block text-gray-700 font-medium mb-1">Username:</label>
+                    <input
+                        type="text"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                        className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                    />
+                </div>
+                
+                <div className="mb-6">
+                    <label className="block text-gray-700 font-medium mb-1">Password:</label>
+                    <input
+                        type="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        className="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                    />
+                </div>
+                
+                <button
+                    onClick={handleLogin}
+                    className="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition duration-300"
+                >
+                    Login
+                </button>
             </div>
-            <div>
-                <label>Password:</label>
-                <input
-                    type="password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                />
-            </div>
-            <button onClick={handleLogin}>Login</button>
         </div>
     );
 };
