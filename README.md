@@ -1,8 +1,11 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Projeto GS - WebDev
 
-Currently, two official plugins are available:
+O Eco Switch é uma solução de automação residencial focada em sustentabilidade e economia de energia. Ele consiste em um sensor inteligente instalado nas portas de saída da propriedade, que identifica a ausência de pessoas e, através de um aplicativo móvel, desliga dispositivos eletrônicos não essenciais, reduzindo o consumo desnecessário de energia. Com uma interface amigável e integração com sistemas de casas inteligentes, o Eco Switch ajuda a diminuir as contas de eletricidade, reduz a pegada de carbono e contribui para um ambiente mais sustentável.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Integrantes
+
+- Camila Mie Takara [RM: 555418]
+- Lucas Son [RM: 554724]
+- Enzo Miletta Herrera da Silva [RM: 98677]
