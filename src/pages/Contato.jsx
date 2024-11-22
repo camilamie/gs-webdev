@@ -17,7 +17,6 @@ export default function Contato() {
 
     return (
         <div className="flex flex-col min-h-screen bg-gray-100 ">
-            {/* Formulário */}
             <div className="flex justify-center py-10   ">
                 <form onSubmit={handleSubmit} className="flex flex-col bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl space-y-4 mt-36">
                     <h2 className="text-2xl font-semibold text-center text-green-700">Fale Conosco</h2>
