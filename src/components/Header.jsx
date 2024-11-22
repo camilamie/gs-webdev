@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <header className="  text-white py-4 shadow-md">
                 <div className='flex items-center justify-center	 max-w-7xl mx-auto px-4"' >
-                    <img src='src/assets/logo-semfundo.png' alt="logo" className="h-20 w-50" />
+                    <img src='public/logo-semfundo.png' alt="logo" className="h-20 w-50" />
                     <h1 className="text-6xl font-bold  text-ve ">Eco Switch</h1>
                 </div>
                 <nav>

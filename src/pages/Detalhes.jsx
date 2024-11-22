@@ -16,7 +16,7 @@ export default function Detalhes() {
                 </p>
 
                 <div className="flex justify-center ">
-                    <img src="src/assets/detalhes-foto.jpeg" alt="Mulher no celular" className="rounded-xl shadow-lg max-w-full h-auto w-full lg:w-2/3" />
+                    <img src="public/detalhes-foto.jpeg" alt="Mulher no celular" className="rounded-xl shadow-lg max-w-full h-auto w-full lg:w-2/3" />
                 </div>
             </div>
         </section>

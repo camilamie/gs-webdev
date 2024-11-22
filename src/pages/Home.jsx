@@ -52,7 +52,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
-                    <img src="src/assets/img-hero.jpg" alt="homem ligando a luz por aplicativo" className="h-64 md:h-96 lg:h-[450px] rounded-xl shadow-lg" />
+                    <img src="public/img-hero.jpg" alt="homem ligando a luz por aplicativo" className="h-64 md:h-96 lg:h-[450px] rounded-xl shadow-lg" />
                 </div>
             </div>
         </section>
